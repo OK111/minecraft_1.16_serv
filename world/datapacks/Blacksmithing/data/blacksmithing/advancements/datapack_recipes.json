@@ -1,0 +1,16 @@
+{
+ "comment":"Datapack made by TheDiamondPlayables! Don't Plagiarize!",
+ "criteria":{
+  "grant":{
+   "trigger": "minecraft:tick"}
+  },
+ "requirements":[
+				 ["grant"]
+				],
+ "rewards":{
+  "recipes":[
+			 "blacksmithing:crafting/repair_anvil",
+			 "blacksmithing:crafting/repair_chipped_anvil",
+			 "blacksmithing:furnace/recycle_anvil",
+			 "blacksmithing:blast_furnace/recycle_anvil"]}
+}

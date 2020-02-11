@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "anvil",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+	"b": {
+      "item": "minecraft:chipped_anvil"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+	"count": 1
+  }
+}

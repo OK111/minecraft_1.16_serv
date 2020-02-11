@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "cf0aadaa-dc5e-483b-9d2a-1cb865703d2d",
+    "name": "GrazySmash",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "17baca7f-2d80-4c48-8981-ddb6850bba0a",
+    "name": "DesuArchive",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e607144c-8927-4ec5-86b5-ff5ea0c3e758",
+    "name": "OK386",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e3c8fe43-a3d0-474b-bae9-2d27ea2d14f5",
+    "name": "Gabillen4ik",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
