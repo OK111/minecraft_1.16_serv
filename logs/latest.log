@@ -1,68 +1,12 @@
-[19:16:29] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:16:29] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:16:29] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:16:29] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:16:29] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:16:29] [Server thread/INFO]: Starting minecraft server version Snapshot 20w06a
-[19:16:29] [Server thread/INFO]: Loading properties
-[19:16:29] [Server thread/INFO]: Default game type: SURVIVAL
-[19:16:29] [Server thread/INFO]: Generating keypair
-[19:16:29] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_241]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_241]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_241]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_241]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_241]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_241]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_241]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_241]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_241]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
-	at we$2.run(SourceFile:110) [server.jar:?]
-[19:16:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:16:29] [Server thread/INFO]: Using default channel type
-[19:16:30] [Server thread/INFO]: Preparing level "world"
-[19:16:30] [Server thread/INFO]: Reloading ResourceManager: Default, mob-health-bar-1-5-1-14-x-1561422843.zip, Blacksmithing, aw-man.zip
-[19:16:31] [Server thread/INFO]: Loaded 6 recipes
-[19:16:31] [Server thread/INFO]: Loaded 44 custom command functions
-[19:16:31] [Server thread/INFO]: Loaded 861 advancements
-[19:16:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:16:32] [Server thread/INFO]: Preparing spawn area: 0%
-[19:16:32] [Server thread/INFO]: Preparing spawn area: 0%
-[19:16:33] [Server thread/INFO]: Time elapsed: 1006 ms
-[19:16:33] [Server thread/INFO]: Done (2.415s)! For help, type "help"
-[19:16:42] [User Authenticator #1/INFO]: UUID of player GrazySmash is cf0aadaa-dc5e-483b-9d2a-1cb865703d2d
-[19:16:42] [Server thread/INFO]: GrazySmash[/178.90.162.156:14769] logged in with entity id 92 at (5128.725333790019, 64.9375, 1541.1719454411957)
-[19:16:42] [Server thread/INFO]: GrazySmash joined the game
-[19:16:43] [User Authenticator #2/INFO]: UUID of player OK386 is e607144c-8927-4ec5-86b5-ff5ea0c3e758
-[19:16:43] [Server thread/INFO]: OK386[/127.0.0.1:52385] logged in with entity id 258 at (238.61883515940588, 50.0, 1.041293482895861)
-[19:16:43] [Server thread/INFO]: OK386 joined the game
-[19:16:43] [Server thread/WARN]: Fetching packet for removed entity ale['Experience Orb'/265, l='world', x=238.67, y=50.60, z=0.87]
-[19:17:08] [Server thread/INFO]: GrazySmash lost connection: Disconnected
-[19:17:08] [Server thread/INFO]: GrazySmash left the game
-[19:17:55] [User Authenticator #3/INFO]: UUID of player GrazySmash is cf0aadaa-dc5e-483b-9d2a-1cb865703d2d
-[19:17:55] [Server thread/INFO]: GrazySmash[/178.90.162.156:14791] logged in with entity id 1135 at (5125.6403622553225, 63.9375, 1556.7227904206318)
-[19:17:56] [Server thread/INFO]: GrazySmash joined the game
-[19:18:56] [Server thread/INFO]: GrazySmash lost connection: Timed out
-[19:18:56] [Server thread/INFO]: GrazySmash left the game
-[19:19:59] [User Authenticator #4/INFO]: UUID of player GrazySmash is cf0aadaa-dc5e-483b-9d2a-1cb865703d2d
-[19:19:59] [Server thread/INFO]: GrazySmash[/178.90.162.156:51932] logged in with entity id 2933 at (5129.256027196839, 77.02989158816118, 1538.131729868667)
-[19:19:59] [Server thread/INFO]: GrazySmash joined the game
-[19:20:59] [Server thread/INFO]: GrazySmash lost connection: Timed out
-[19:20:59] [Server thread/INFO]: GrazySmash left the game
-[19:21:05] [Server thread/INFO]: OK386 lost connection: Disconnected
-[19:21:05] [Server thread/INFO]: OK386 left the game
-[19:21:08] [Server thread/INFO]: Stopping server
-[19:21:08] [Server thread/INFO]: Saving players
-[19:21:08] [Server thread/INFO]: Saving worlds
-[19:21:08] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[19:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:21:08] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[19:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:21:08] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[19:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:38:24] [Server thread/INFO]: Stopping server
+[17:38:25] [Server thread/INFO]: Saving players
+[17:38:25] [Server thread/INFO]: Saving worlds
+[17:38:26] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[17:38:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:38:26] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[17:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:38:27] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[17:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:38:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:38:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
