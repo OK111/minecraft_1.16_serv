@@ -1,12 +1,411 @@
-[17:38:24] [Server thread/INFO]: Stopping server
-[17:38:25] [Server thread/INFO]: Saving players
-[17:38:25] [Server thread/INFO]: Saving worlds
-[17:38:26] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[17:38:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:38:26] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[17:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:38:27] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[17:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:38:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:38:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:47:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:47:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:47:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:47:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:47:04] [Server thread/INFO]: Starting minecraft server version 20w07a
+[01:47:04] [Server thread/INFO]: Loading properties
+[01:47:04] [Server thread/INFO]: Default game type: SURVIVAL
+[01:47:04] [Server thread/INFO]: Generating keypair
+[01:47:04] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_241]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at wg$2.run(SourceFile:110) [server.jar:?]
+[01:47:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:47:04] [Server thread/INFO]: Using default channel type
+[01:47:05] [Server thread/INFO]: Preparing level "world"
+[01:47:05] [Server thread/INFO]: Reloading ResourceManager: Default, mob-health-bar-1-5-1-14-x-1561422843.zip, Blacksmithing, aw-man.zip
+[01:47:05] [Server thread/INFO]: Loaded 6 recipes
+[01:47:05] [Server thread/INFO]: Loaded 44 custom command functions
+[01:47:05] [Server thread/INFO]: Loaded 861 advancements
+[01:47:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:47:06] [Server thread/INFO]: Preparing spawn area: 0%
+[01:47:06] [Server thread/INFO]: Preparing spawn area: 0%
+[01:47:06] [Server thread/INFO]: Time elapsed: 1047 ms
+[01:47:06] [Server thread/INFO]: Done (1.717s)! For help, type "help"
+[01:47:31] [User Authenticator #1/INFO]: UUID of player GrazySmash is cf0aadaa-dc5e-483b-9d2a-1cb865703d2d
+[01:47:31] [Server thread/INFO]: GrazySmash[/178.90.162.156:55003] logged in with entity id 182 at (233.58536781764627, 49.0, 0.7428627186650827)
+[01:47:31] [Server thread/INFO]: GrazySmash joined the game
+[01:48:15] [User Authenticator #2/INFO]: UUID of player OK386 is e607144c-8927-4ec5-86b5-ff5ea0c3e758
+[01:48:15] [Server thread/INFO]: OK386[/127.0.0.1:49650] logged in with entity id 266 at (241.82195925729232, 49.0, -2.0276918560264123)
+[01:48:15] [Server thread/INFO]: OK386 joined the game
+[01:48:23] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[01:48:23] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[01:48:24] [Server thread/INFO]: OK386 fell out of the world
+[01:48:24] [Server thread/INFO]: [OK386: Killed OK386]
+[01:49:44] [Server thread/INFO]: OK386 experienced kinetic energy
+[01:50:39] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:50:40] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:50:40] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:50:40] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:50:41] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:50:41] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:50:41] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:50:41] [Server thread/WARN]: Exception loading entity: 
+q: Loading entity NBT
+	at alf.f(SourceFile:1599) ~[server.jar:?]
+	at alj.a(SourceFile:441) ~[server.jar:?]
+	at t.a(SourceFile:341) ~[server.jar:?]
+	at alj.a(SourceFile:440) ~[server.jar:?]
+	at alj.b(SourceFile:493) ~[server.jar:?]
+	at alj.a(SourceFile:474) ~[server.jar:?]
+	at cdm.a(SourceFile:375) ~[server.jar:?]
+	at cdm.b(SourceFile:138) ~[server.jar:?]
+	at cda.w(SourceFile:478) ~[server.jar:?]
+	at ws.a(SourceFile:603) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[server.jar:?]
+	at ws.a(SourceFile:592) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at wu.b(SourceFile:58) ~[server.jar:?]
+	at ajg.c(SourceFile:144) [server.jar:?]
+	at xe$a.c(SourceFile:551) [server.jar:?]
+	at ajg.w(SourceFile:118) [server.jar:?]
+	at xe$a.w(SourceFile:560) [server.jar:?]
+	at xe.d(SourceFile:278) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bc(SourceFile:738) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:726) [server.jar:?]
+	at ajg.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:711) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:663) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: java.lang.RuntimeException
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at asy.<init>(SourceFile:33) ~[server.jar:?]
+	at ame.a(SourceFile:97) ~[server.jar:?]
+	at ame.<init>(SourceFile:85) ~[server.jar:?]
+	at azu.a(SourceFile:201) ~[server.jar:?]
+	at alo.a(SourceFile:604) ~[server.jar:?]
+	at alp.a(SourceFile:403) ~[server.jar:?]
+	at ald.a(SourceFile:111) ~[server.jar:?]
+	at azp.a(SourceFile:184) ~[server.jar:?]
+	at azu.a(SourceFile:490) ~[server.jar:?]
+	at alf.f(SourceFile:1590) ~[server.jar:?]
+	... 28 more
+[01:52:27] [Server thread/INFO]: OK386 lost connection: Disconnected
+[01:52:27] [Server thread/INFO]: OK386 left the game
+[02:18:23] [Server thread/INFO]: Stopping server
+[02:18:23] [Server thread/INFO]: Saving players
+[02:18:23] [Server thread/INFO]: Saving worlds
+[02:18:23] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:18:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:18:23] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[02:18:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:18:23] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[02:18:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:18:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:18:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:18:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
